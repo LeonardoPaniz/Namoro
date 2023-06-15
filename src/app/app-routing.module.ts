@@ -9,7 +9,8 @@ import { AuthGuard } from './auth.guard';
 const routes: Routes = [
   {path:'', component:HomeComponent},
   {path:'carta', component:CartaComponent, canActivate:[AuthGuard]},
-  {path:'acesso-negado', component:AcessoNegadoComponent}
+  {path:'acesso-negado', component:AcessoNegadoComponent},
+  { path: '**', redirectTo: ''},
 ];
 
 @NgModule({
