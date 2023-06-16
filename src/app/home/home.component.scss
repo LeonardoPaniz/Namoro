@@ -4,6 +4,39 @@ html, body {
   overflow: hidden; /* Desabilita o scroll */
 }
 
+.custom-date-input {
+  /* Estilos personalizados */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  box-shadow: none;
+  outline: none;
+
+  /* Estilos para a seta do input */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Estilos para a seta do input no Chrome */
+.custom-date-input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+/* Estilos para a seta do input no Firefox */
+.custom-date-input::-moz-calendar-picker-indicator {
+  display: none;
+}
+
+/* Estilos para a seta do input no Edge */
+.custom-date-input::-ms-calendar-picker-indicator {
+  display: none;
+}
+
+
 .login {
   display: flex;
   flex-direction: column;

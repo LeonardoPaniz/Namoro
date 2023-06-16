@@ -12,8 +12,8 @@ export class HomeComponent {
   senhaFornecida: string = '';
 
    conferirSenha(): void {
-    const senhaCorreta: string = "17/09/2022";
-    console.log(this.senhaFornecida);
+    console.log("olha a senha:", this.senhaFornecida);
+    const senhaCorreta: string = "2022-09-17";
 
 
     if (this.senhaFornecida === senhaCorreta) {

@@ -11,7 +11,7 @@
       <h1>Bem vindo à minha carta!</h1>
       <p>Heyy baby, se chegou aqui vou te dar uma dica que só você vai saber, a senha é a data mais importante da minha vida.</p>
       <div class="input-container">
-        <input type="text" name="senha" id="senha" placeholder="Senha" [(ngModel)]="senhaFornecida">
+        <input class="custom-date-input" type="date" name="senha" id="senha" placeholder="Senha" min="2022-09-01" max="2022-09-30" [(ngModel)]="senhaFornecida">
         <button (click)="conferirSenha()">Acessar</button>
       </div>
     </div>
