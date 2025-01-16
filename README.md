@@ -1,27 +1,82 @@
-# Namoro
+# **Namoro**  
+Este é um projeto especial, desenvolvido para celebrar nosso relacionamento. Ele é uma homenagem carregada de amor e carinho. 💖  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+O projeto inclui um teste divertido para adivinhar a data de início do nosso namoro. Foi criado com Angular, e abaixo você encontrará todas as instruções necessárias para clonar e rodar o projeto localmente.  
 
-## Development server
+**Amor da minha vida, eu te amo!** ❤️  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## **Tecnologias Utilizadas**  
+- **Angular**: Framework principal para desenvolvimento.  
+- **TypeScript**: Linguagem usada no desenvolvimento.  
+- **CSS/HTML**: Para estilização e estrutura do projeto.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## **Pré-requisitos**  
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas no seu computador:  
+- **Node.js** (versão 14 ou superior)  
+- **Angular CLI** (versão 12 ou superior)  
+- Um editor de texto como o **VS Code**  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## **Como Clonar e Rodar o Projeto**  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 1. **Clone o Repositório**  
+Abra o terminal e execute o seguinte comando:  
+```bash
+git clone https://github.com/LeonardoPaniz/Namoro.git
+```  
 
-## Running end-to-end tests
+### 2. **Acesse o Diretório do Projeto**  
+```bash
+cd Namoro
+```  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 3. **Instale as Dependências**  
+No diretório do projeto, instale as dependências usando o npm:  
+```bash
+npm install
+```  
 
-## Further help
+### 4. **Inicie o Servidor de Desenvolvimento**  
+Para rodar o projeto localmente, execute:  
+```bash
+ng serve
+```  
+O servidor será iniciado e estará disponível no endereço:  
+```
+http://localhost:4200
+```  
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## **Estrutura do Projeto**  
+- **src/**: Contém todos os arquivos de código-fonte do projeto.  
+  - **app/**: Componentes principais do projeto.  
+  - **assets/**: Imagens e outros arquivos estáticos.  
+  - **environments/**: Configurações de ambiente.  
+
+---
+
+## **Funcionalidades**  
+- Teste interativo para adivinhar a data de início do relacionamento.  
+- Design simples e romântico, com foco em celebrar o amor.  
+
+---
+
+## **Contribuição**  
+Embora este seja um projeto pessoal e especial, estou sempre aberto a melhorias e sugestões!  
+
+---
+
+## **Contato**  
+Qualquer dúvida ou sugestão, entre em contato comigo! 😊  
+
+**Feito com muito amor e carinho.** ❤️  
+
+---  
+
+O que achou? Posso personalizar mais algo!
